@@ -137,7 +137,7 @@ li {
 }
 
 main{
-  position: relative;
+
   display: flex;
   justify-content: center;
 }
@@ -260,23 +260,8 @@ input[type=submit]:hover{
   background-color: #2b4cba;
 }
 
-a:link {
-  /*lien non visité*/
-  color: #4769D8;
-}
-
 a:hover {
   /*souris sur lien*/
-  text-decoration: none;
-}
-
-a:active {
-  color: #4769D8;
-}
-
-a:visited {
-  /*lien sélectionné*/
-  color: #4769D8;
   text-decoration: none;
 }
 
@@ -300,6 +285,7 @@ footer {
   float: left;
   width: 100%;
   height: 100%;
+  padding-bottom: 60px;
   border-bottom: 1px solid #e0e6ee;
 }
 .footer-head-Social {
@@ -310,7 +296,7 @@ footer {
   display:flex;
   flex-wrap: wrap;
   height: 100%;
-  }
+}
 .footer-head-news {
   float: left;
   line-height: 1.5;
@@ -319,7 +305,7 @@ footer {
   display:flex;
   flex-wrap: wrap;
   height: 100%;
-  }
+}
 .footer-body {
   width: 100%;
   float: left;
@@ -328,7 +314,7 @@ footer {
   color: #55647b;
 }
 .footer-bodybox1 {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-right: 50px;
   padding-bottom: 15px;
   width: 320px;
@@ -368,4 +354,15 @@ footer {
   width: 100%;
   height: 100%;
   display: block;
-  }
+}
+.footer-email {
+  width: 410px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #131a2b;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+}

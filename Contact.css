@@ -176,6 +176,7 @@ footer {
   height: 100%;
   border-bottom: 1px solid #e0e6ee;
   background-color: inherit;
+  padding-bottom: 60px;
 }
 .footer-head-Social {
   float: left;
@@ -184,9 +185,8 @@ footer {
   width: 33.33%;
   display:flex;
   flex-wrap: wrap;
-  height: 100%;
   background-color: inherit;
-}
+  }
 .footer-head-news {
   float: left;
   line-height: 1.5;
@@ -194,7 +194,6 @@ footer {
   width: 66.66%;
   display:flex;
   flex-wrap: wrap;
-  height: 100%;
   background-color: inherit;
 }
 .footer-body {
@@ -251,4 +250,15 @@ footer {
   height: 100%;
   display: block;
   background-color: inherit;
+}
+.footer-email {
+  width: 410px;
+  height: 55px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #131a2b;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
 }
