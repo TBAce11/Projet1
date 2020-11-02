@@ -5,10 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About</title>
 <style type="text/css">
-body {
-  background-color: grey;
+*{
   font-family: sans-serif;
   text-decoration: none;
+  font-weight: normal;
+}
+
+body {
+  background-color: white;
 }
 
 /* Navbar styling*/
@@ -87,17 +91,24 @@ header {
 
 /* Main Content styling*/
 
+main {
+
+}
+
 .mainbox {
   background-color: white;
   margin-left: 20%;
   margin-right: 20%;
+  padding-bottom: 50px;
   height: auto;
 }
 .story-title {
   text-align: center;
+  padding-bottom: 30px;
 }
 .story-title h1 {
   font-size: 40px;
+  font-weight: bold;
   color: #131A2B;
 }
 .story-title h2 {
@@ -106,27 +117,52 @@ header {
 }
 .story-box {
   float: left;
-  text-align: left;
   width: 100%;
   background-color: white;
+
 }
-.story-box img {
+.story-box-left {
   float: left;
-  text-align: left;
-  margin: none;
+  width: 50%;
+}
+.story-box-left img {
+  float: left;
   width: 569px;
 }
-.story-box h1 {
-  float: left;
+.story-box-left h1  {
   font-size: 30px;
+  font-weight: bold;
   color: #131A2B;
-  width: 200;
 }
-.story-box h2 {
-  float: left;
+.story-box-left h2 {
   font-size: 18px;
+  line-height: 1.5;
   color: #55647B;
-  width: 200;
+}
+.story-box-right  {
+  float: left;
+  width: 50%;
+}
+.story-box-right img {
+  float: left;
+  width: 569px;
+}
+.story-box-right h1  {
+  font-size: 30px;
+  font-weight: bold;
+  color: #131A2B;
+}
+.story-box-right h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #55647B;
+}
+
+.story-padding {
+  float: left;
+  width: 100%;
+  background-color: white;
+  height: 150px;
 }
 
 /* footer styling*/
@@ -270,15 +306,68 @@ footer {
       <h2> Because there's no way to improve without looking back on where you came from.</h2>
     </div>
     <div class="story-box">
+      <div class="story-box-left">
       <img src="https://athemes.com/wp-content/themes/athemesv4/assets/images/2013.jpg">
+      </div>
+      <div class="story-box-right">
       <h1><br><br>2013</h1>
-      <br>
       <h2>aThemes started back in 2013 with releasing free WordPress<br>
       themes on WordPress.org. After some early success with<br>
       themes like Fashionista and Hiero, we decided to keep<br>
       releasing themes and see where it would take us.</h2>
+      </div>
     </div>
-  </div>
+    <div class="story-box">
+      <div class="story-box-left">
+        <h1><br><br>2014</h1>
+        <h2>In August 2014 we released our first premium theme, Alizee<br>
+        Pro. This was received well enough for us to keep creating<br>
+        and releasing easy to use themes, both free and premium.</h2>
+      </div>
+      <div class="story-box-right">
+      <img src="https://athemes.com/wp-content/themes/athemesv4/assets/images/2014.jpg">
+      </div>
+    </div>
+    <div class="story-box">
+      <div class="story-box-left">
+      <img src="https://athemes.com/wp-content/themes/athemesv4/assets/images/2018.jpg">
+      </div>
+      <div class="story-box-right">
+      <h1><br><br>2018</h1>
+      <h2>As of 2018, our Sydney theme has reached an incredible<br>
+      milestone: with 200,000 active installs, it’s one of the most<br>
+      popular free WordPress themes in the world. Its premium<br>
+      version, Sydney Pro, now comes with four additional demos<br>
+      you can import, giving you five designs for the price of one.</h2>
+      </div>
+    </div>
+    <div class="story-box">
+      <div class="story-box-left">
+        <h1><br><br>2019</h1>
+        <h2>The Airi theme was a new addition to our free themes. It<br>
+        reached 10,000 installs within the year, and we added the<br>
+        premium Airi Pro companion plugin. We also gave our<br>
+        Sydney theme a design refresh and continued to release<br>
+        new designs for Sydney Pro.</h2>
+      </div>
+      <div class="story-box-right">
+      <img src="https://athemes.com/wp-content/themes/athemesv4/assets/images/2019.png">
+      </div>
+    </div>
+    <div class="story-box">
+      <div class="story-box-left">
+      <img src="https://athemes.com/wp-content/themes/athemesv4/assets/images/2020.png">
+      </div>
+      <div class="story-box-right">
+      <h1><br><br>2020</h1>
+      <h2>We keep on improving our existing themes to make them<br>
+      even more awesome. We are working hard behind the<br>
+      themes to make more layouts for popular themes like<br>
+      Sydney Pro and Airi Pro.</h2>
+      </div>
+    </div>
+    <div class="story-padding">
+    </div>
 
 </main>
 
