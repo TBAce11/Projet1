@@ -17,36 +17,38 @@
 /*body and fonts styling*/
 
 *{
-  font-family: sans-serif;
+  font-family: "Graphik Web Regular", sans-serif;
   text-decoration: none;
   font-weight: normal;
 }
 
 body {
-  font-family: "Graphik Web Regular", sans-serif;
-  font-size: .9rem;
-  line-height: 1.5;
+  font-size: 15px;
   color: #55647b;
-  letter-spacing: normal;
-  -webkit-font-smoothing: antialiased;
   background-color: #FFFFFF;
 }
 
+h1, h2{
+  margin-bottom: 25px,
+  color: #000000;
+  text-transform: none;
+}
+
 h1{
-  font-size: 2.4rem;
-  font-weight: 500;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
 }
 
 p{
-  margin-top: -.35rem;
-  margin-bottom: 2rem;
+  margin-bottom: 30px;
 }
 
 /* Navbar styling*/
 
 .navbox {
   overflow: hidden;
-  background-color: white;
+  background-color: #FFFFFF;
   text-align: center;
   margin-left: 0%;
   margin-right: 0%;
@@ -55,7 +57,7 @@ p{
 .navAthemes {
   float: left;
   font-size: 16px;
-  color: black;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,7 +65,7 @@ p{
 }
 .navbar {
   overflow: hidden;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #55647B;
   text-align: center;
   margin-left: 60%;
@@ -118,17 +120,23 @@ header {
 }
 
 .conteneur{
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.contenuHeader{
+  width: 668px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Main Content styling*/
 
-main{
-  position:relative;
-}
-
 .mainbox {
-  background-color: white;
+  background-color: #FFFFFF;
   margin-left: 20%;
   margin-right: 20%;
   padding-bottom: 50px;
@@ -137,6 +145,62 @@ main{
 
 .contenuSite{
   padding-top: 80px;
+}
+
+.colonneUsers1{
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.colonneUsers2{
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.colonneUsers1>div, .colonneUsers2>div{
+  width: 225px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.userCard{
+  display: block;
+  padding: 50px 20px;
+  text-align: center;
+  border: 1px solid #ECF1F7;
+  border-radius: 5px;
+}
+
+.userCard:hover{
+  outline: none;
+  box-shadow: 0 0 0 1px rgb(211,211,211);
+}
+
+.cardImage img {
+  max-width: 100%;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  border-radius: 100%;
+  margin-bottom: 18px;
+}
+
+.cardName{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cardTitle{
+  display: block;
+  color: #697B96;
 }
 
 .story-title {
