@@ -18,14 +18,14 @@
 }
 
 body {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /* Navbar styling*/
 
 .navbox {
   overflow: hidden;
-  background-color: white;
+  background-color: #FFFFFF;
   text-align: center;
   margin-left: 0%;
   margin-right: 0%;
@@ -42,7 +42,7 @@ body {
 }
 .navbar {
   overflow: hidden;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #55647B;
   text-align: center;
   margin-left: 60%;
@@ -74,7 +74,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #FFFFFF;
   min-width: 160px;
   }
 .dropdown-content a {
@@ -92,44 +92,35 @@ body {
 /* Main Content styling*/
 
 h1, h2, h3 {
-  margin-top: 0;
-  margin-bottom: 1.7rem;
-  font-family: "Graphik Web Regular", sans-serif;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #131a2b;
-  letter-spacing: normal;
+  margin-bottom: 25px;
+  color: #131A2B;
 }
 
 .titrePage {
   font-weight: bold;
-  font-size: 2.1rem;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
-  margin-top: 3.5rem;
+  margin-top: 55px;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 25px;
   font-weight: bold;
 }
 
-p {
-  margin-top: -.35rem;
-  margin-bottom: 2rem;
+p, a.hypertext {
+  margin-bottom: 30px;
+  color: #55647B;
+  font-size: 14px;
 }
 
 ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 
 li {
@@ -137,7 +128,6 @@ li {
 }
 
 main{
-
   display: flex;
   justify-content: center;
 }
@@ -145,53 +135,21 @@ main{
 #conteneur {
   padding-right: 20px;
   padding-left: 20px;
-  max-width: 1180px;
   margin-bottom: 140px;
-  padding-top: 80px;
-
+  padding-top: 10px;
 }
 
-#conteneurPage{
+.contenu{
   width: 750px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.headerPage {
-  width: 750px;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.wrapFormulaires {
-  margin-bottom: 16px;
-  margin-top: 16px;
-  max-width: 100%;
-}
-
-.wrapFormulaires form{
-  text-align: left;
-  max-width: 100%;
-  margin: auto;
 }
 
 #listeFormulaire {
   list-style-type: none;
   display: block;
   padding: 0;
-  overflow: visible;
-}
-
-label {
-  font-weight: 400;
-  color: #131A2B;
-  cursor: default;
-  margin-bottom: .3rem;
-  line-height: 1.3;
-  display: inline-block;
-  clear: both;
 }
 
 li.champFormulaire{
@@ -213,7 +171,6 @@ input, textarea{
   padding-right: 4px;
   padding-bottom: 5px;
   padding-left: 4px;
-  letter-spacing: normal;
 }
 
 textarea {
@@ -224,45 +181,52 @@ textarea {
 }
 
 input[type=submit]{
-  align-items: center;
   background-color: #4769D8;
-  border: 1px solid ##4769D8;
-  color: #FFF!important;
-  font-family: "Graphik Web Regular", sans-serif;
-  font-size: .85rem;
+  color: #FFFFFF;
+  font-size: 13px;
   font-weight: bold;
-  line-height: 1.5;
-  padding: .55rem 1.5rem .6rem;
-  text-decoration: none!important;
-  white-space: nowrap;
+  padding: 10px 25px;
+  text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: .2rem;
+  border-radius: 3px;
 }
 
 .footerFormulaires{
-  padding: 0px 0 10px 0;
-  margin: 16px 0 0 0;
-  clear: both;
+  padding: 0px 0px 10px 0px;
+  margin-top: 16px;
   width: 100%;
 }
 
-.required{
+span{
   color: #790000;
   margin-left: 4px;
 }
+
 input:focus,textarea:focus{
   outline: none;
   box-shadow: 0 0 0 1px rgb(211,211,211);
 }
 
 input[type=submit]:hover{
-  background-color: #2b4cba;
+  background-color: #2B4CBA;
 }
 
-a:hover {
-  /*souris sur lien*/
+a.hypertext:hover {
+  color: #4769D8;
   text-decoration: none;
+}
+
+a.hypertext:active{
+  color: #4769D8;
+}
+
+a.hypertext:link{
+  color: #4769D8;
+}
+
+a.hypertext:visited {
+  color: #4769D8;
 }
 
 /* footer styling*/
@@ -363,6 +327,6 @@ footer {
   padding-left: 10px;
   color: #131a2b;
   display: inline-block;
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 5px;
 }
